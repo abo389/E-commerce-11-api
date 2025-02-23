@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "name": "Electronics",
+      "subcategories": [
+        { "name": "Smartphones", "image": "smartphones.jpeg" },
+        { "name": "Laptops", "image": "laptops.jpeg" },
+        { "name": "Headphones", "image": "headphones.jpeg" },
+        { "name": "Smart Home Devices", "image": "smart-home.jpeg" }
+      ]
+    },
+    {
+      "name": "Books",
+      "subcategories": [
+        { "name": "Fiction", "image": "fiction.jpeg" },
+        { "name": "Non-Fiction", "image": "non-fiction.jpeg" },
+        { "name": "Children's Books", "image": "children-books.jpeg" },
+        { "name": "Textbooks", "image": "textbooks.jpeg" }
+      ]
+    },
+    {
+      "name": "Home & Kitchen",
+      "subcategories": [
+        { "name": "Cookware", "image": "cookware.jpeg" },
+        { "name": "Furniture", "image": "furniture.jpeg" },
+        { "name": "Home Decor", "image": "home-decor.jpeg" },
+        { "name": "Small Appliances", "image": "small-appliances.jpeg" }
+      ]
+    },
+    {
+      "name": "Clothing, Shoes & Jewelry",
+      "subcategories": [
+        { "name": "Men's Clothing", "image": "mens-clothing.jpeg" },
+        { "name": "Women's Clothing", "image": "womens-clothing.jpeg" },
+        { "name": "Shoes", "image": "shoes.jpeg" },
+        { "name": "Watches", "image": "watches.jpeg" }
+      ]
+    },
+    {
+      "name": "Beauty & Personal Care",
+      "subcategories": [
+        { "name": "Skincare", "image": "skincare.jpeg" },
+        { "name": "Makeup", "image": "makeup.jpeg" },
+        { "name": "Haircare", "image": "haircare.jpeg" },
+        { "name": "Fragrances", "image": "fragrances.jpeg" }
+      ]
+    },
+    {
+      "name": "Toys & Games",
+      "subcategories": [
+        { "name": "Action Figures", "image": "action-figures.jpeg" },
+        { "name": "Board Games", "image": "board-games.jpeg" },
+        { "name": "Puzzles", "image": "puzzles.jpeg" },
+        { "name": "Outdoor Toys", "image": "outdoor-toys.jpeg" }
+      ]
+    },
+    {
+      "name": "Sports & Outdoors",
+      "subcategories": [
+        { "name": "Fitness Equipment", "image": "fitness-equipment.jpeg" },
+        { "name": "Camping Gear", "image": "camping-gear.jpeg" },
+        { "name": "Cycling", "image": "cycling.jpeg" },
+        { "name": "Team Sports", "image": "team-sports.jpeg" }
+      ]
+    },
+    {
+      "name": "Health & Household",
+      "subcategories": [
+        { "name": "Vitamins", "image": "vitamins.jpeg" },
+        { "name": "Medical Supplies", "image": "medical-supplies.jpeg" },
+        { "name": "Cleaning Products", "image": "cleaning-products.jpeg" },
+        { "name": "Personal Care", "image": "personal-care.jpeg" }
+      ]
+    },
+    {
+      "name": "Automotive",
+      "subcategories": [
+        { "name": "Car Parts", "image": "car-parts.jpeg" },
+        { "name": "Car Accessories", "image": "car-accessories.jpeg" },
+        { "name": "Tools & Equipment", "image": "tools-equipment.jpeg" },
+        { "name": "Motorcycle Parts", "image": "motorcycle-parts.jpeg" }
+      ]
+    },
+    {
+      "name": "Pet Supplies",
+      "subcategories": [
+        { "name": "Pet Food", "image": "pet-food.jpeg" },
+        { "name": "Toys", "image": "pet-toys.jpeg" },
+        { "name": "Grooming Products", "image": "grooming-products.jpeg" },
+        { "name": "Pet Furniture", "image": "pet-furniture.jpeg" }
+      ]
+    },
+    {
+      "name": "Grocery & Gourmet Food",
+      "subcategories": [
+        { "name": "Snacks", "image": "snacks.jpeg" },
+        { "name": "Beverages", "image": "beverages.jpeg" },
+        { "name": "Canned Goods", "image": "canned-goods.jpeg" },
+        { "name": "Organic Foods", "image": "organic-foods.jpeg" }
+      ]
+    },
+    {
+      "name": "Movies & TV",
+      "subcategories": [
+        { "name": "Blu-rays", "image": "blu-rays.jpeg" },
+        { "name": "DVDs", "image": "dvds.jpeg" },
+        { "name": "TV Shows", "image": "tv-shows.jpeg" },
+        { "name": "Documentaries", "image": "documentaries.jpeg" }
+      ]
+    },
+    {
+      "name": "Video Games",
+      "subcategories": [
+        { "name": "Consoles", "image": "consoles.jpeg" },
+        { "name": "PC Games", "image": "pc-games.jpeg" },
+        { "name": "Accessories", "image": "gaming-accessories.jpeg" },
+        { "name": "Game Cards", "image": "game-cards.jpeg" }
+      ]
+    },
+    {
+      "name": "Office Products",
+      "subcategories": [
+        { "name": "Stationery", "image": "stationery.jpeg" },
+        { "name": "Printers", "image": "printers.jpeg" },
+        { "name": "Office Furniture", "image": "office-furniture.jpeg" },
+        { "name": "School Supplies", "image": "school-supplies.jpeg" }
+      ]
+    }
+  ]
+}

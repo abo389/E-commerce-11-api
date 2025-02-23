@@ -2,7 +2,8 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Category;
+use App\Models\SubCategory;
 use Illuminate\Database\Seeder;
 
 class CategorySeeder extends Seeder
@@ -12,12 +13,26 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        $categories = ['clothing', 'shoes', 'accessories', 'electronics', 'home', 'beauty', 'food', 'health', 'sports', 'toys'];
+        // Load the JSON data
+        $jsonData = file_get_contents(__DIR__.'/data/category.json');
+        $data = json_decode($jsonData, true);
 
-        foreach ($categories as $category) {
-            \App\Models\Category::create([
-                "name" => $category,
-            ]);
+        $image_prefix = 'https://e-commerce-11-api.vercel.app/images/categories/';
+
+        // Loop through each category
+        foreach ($data['categories'] as $categoryData) {
+            // Create the category
+            $category = Category::create(['name' => $categoryData['name']]);
+
+            // Loop through each subcategory
+            foreach ($categoryData['subcategories'] as $subCategoryData) {
+                // Create the subcategory
+                SubCategory::create([
+                    'category_id' => $category->id,
+                    'name' => $subCategoryData['name'],
+                    'image' => $image_prefix . $subCategoryData['image']
+                ]);
+            }
         }
     }
 }

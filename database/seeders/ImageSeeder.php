@@ -17,7 +17,7 @@ class ImageSeeder extends Seeder
         // eatch product has 1 to 5 images
         $product_count = Product::all()->count();
         for ($i = 0; $i < $product_count; $i++) {
-            Image::factory(rand(1, 5))->create([
+            Image::factory(rand(1, 2))->create([
                 'product_id' => $i + 1
             ]);
         }
