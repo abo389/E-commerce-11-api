@@ -9,12 +9,13 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+    public $withinTransaction = false;
     public function up(): void
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('description');
+            $table->text('description');
             $table->decimal('price', 10, 2);
             $table->integer('stock');
             $table->foreignId('brand_id')->constrained('brands')->onDelete('cascade');

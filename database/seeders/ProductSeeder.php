@@ -16,17 +16,17 @@ class ProductSeeder extends Seeder
     public function run(): void
     {
         $brands_count = Brand::all()->count();
-        // eatch brand has 5 products
+        // eatch brand has 3 products
         for ($i = 1; $i <= $brands_count; $i++) {
-            Product::factory(5)->create([
+            Product::factory(3)->create([
                 'brand_id' => $i,
             ]);
         }
 
         $categories_count = Category::all()->count();
-        // eatch category has 5 products
+        // eatch category has 3 products
         for ($i = 1; $i <= $categories_count; $i++) {
-            Product::factory(5)->create([
+            Product::factory(3)->create([
                 'category_id' => $i,
             ]);
         }

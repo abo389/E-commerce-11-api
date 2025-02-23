@@ -11,7 +11,7 @@ class ProductController extends Controller
 
   function index()
   {
-    $products = Product::with('reviews', 'images')->get();
+    $products = Product::with('reviews', 'images')->paginate(10);
 
     $data = [];
     foreach ($products as $k => $product) {
@@ -21,7 +21,7 @@ class ProductController extends Controller
       $data[$k]["discount"] = $product->discount;
       $data[$k]["delivery_time"] = $product->delivery_time;
       $data[$k]["reviews_count"] = $product->reviews()->count();
-      $data[$k]["reviews_avg"] = $product->reviews()->avg('rating');
+      $data[$k]["reviews_avg"] = round($product->reviews()->selectRaw('avg(cast(rating as float)) as average_rating')->value('average_rating'), 1);
       $data[$k]["images"] = $product->images->pluck('link');
     }
 
@@ -44,7 +44,7 @@ class ProductController extends Controller
       "discount" => $product->discount,
       "delivery_time" => $product->delivery_time,
       "reviews_count" => $product->reviews()->count(),
-      "reviews_avg" => $product->reviews()->avg('rating') ?? 0,
+      "reviews_avg" => round($product->reviews()->selectRaw('avg(cast(rating as float)) as average_rating')->value('average_rating'), 1),
       "saler" => $product->saler()->select('name', 'city')->first(),
       "category" => $product->category->name,
       "brand" => $product->brand->name,
@@ -57,6 +57,8 @@ class ProductController extends Controller
     }
     return $this->success('product found', $data);
   }
+
+  
 
   
 }
