@@ -11,6 +11,6 @@ class BrandController extends Controller
 
     function index() {
         $brands = Brand::all();
-        return $this->success('all brands' ,$brands);
+        return $this->success('all brands' ,$brands->pluck('name'));
     }
 }

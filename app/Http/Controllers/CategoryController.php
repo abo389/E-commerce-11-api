@@ -11,6 +11,6 @@ class CategoryController extends Controller
 
     function index() {
         $categories = Category::all();
-        return $this->success('all categories',$categories);
+        return $this->success('all categories',$categories->pluck('name'));
     }
 }
