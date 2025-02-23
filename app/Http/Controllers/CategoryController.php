@@ -10,7 +10,7 @@ class CategoryController extends Controller
     use ApiResponse;
 
     function index() {
-        $categories = Category::all();
-        return $this->success('all categories',$categories->pluck('name'));
+        $categories = Category::with('sub_categories')->get();
+        return $this->success('all categories',$categories);
     }
 }

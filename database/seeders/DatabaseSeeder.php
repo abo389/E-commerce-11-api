@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\SubCategory;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -21,5 +22,6 @@ class DatabaseSeeder extends Seeder
             ImageSeeder::class,
             ReviewSeeder::class,
         ]);
+        SubCategory::factory(30)->create();
     }
 }
