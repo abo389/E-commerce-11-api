@@ -17,5 +17,10 @@ Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanc
 Route::get('/brands', [BrandController::class, 'index']);
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::get('/products', [ProductController::class, 'index']);
+Route::get('/products/search/{keyword}', [ProductController::class, 'search']);
+Route::get('/products/category/{name}', [ProductController::class, 'filterByCategory']);
+Route::get('/products/brand/{name}', [ProductController::class, 'filterByBrand']);
+Route::get('/products/price/{rang}', [ProductController::class, 'filterByPrice']);
+Route::get('/products/rating/{rating}', [ProductController::class, 'filterByRating']);
 Route::get('/products/{id}', [ProductController::class, 'show']);
 Route::apiResource('cart',CartController::class)->middleware('auth:sanctum');

@@ -11,6 +11,15 @@ class CategoryController extends Controller
 
     function index() {
         $categories = Category::with('sub_categories')->get();
-        return $this->success('all categories',$categories);
+        $data = [ ];
+        foreach ($categories as $k => $category) {
+            $data[$k]["id"] = 'category_'.$category->id;
+            $data[$k]["name"] = $category->name;
+            $data[$k]["sub_categories"] = $category->sub_categories()->select('name', 'image')->get();
+        }
+        if (!$categories) {
+            return $this->error('no categories found', 404);
+        }
+        return $this->success('all categories',$data);
     }
 }

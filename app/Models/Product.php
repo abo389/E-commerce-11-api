@@ -28,7 +28,7 @@ class Product extends Model
         return $this->belongsTo(Brand::class);
     }
     function category() {
-        return $this->belongsTo(Category::class);
+        return $this->belongsTo(SubCategory::class, 'category_id', 'id');
     }
     function reviews() {
         return $this->hasMany(Review::class);
@@ -36,4 +36,7 @@ class Product extends Model
     function images() {
         return $this->hasMany(Image::class);
     }
+    // function sub_category() {
+    //     return $this->belongsTo();
+    // }
 }

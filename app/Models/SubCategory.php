@@ -11,4 +11,8 @@ class SubCategory extends Model
     use HasFactory;
 
     protected $fillable = ['category_id', 'name', 'image'];
+
+    function products() {
+        return $this->hasManyThrough(Product::class, Category::class);
+    }
 }

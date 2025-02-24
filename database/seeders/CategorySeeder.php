@@ -17,7 +17,7 @@ class CategorySeeder extends Seeder
         $jsonData = file_get_contents(__DIR__.'/data/category.json');
         $data = json_decode($jsonData, true);
 
-        $image_prefix = 'https://e-commerce-11-api.vercel.app/images/categories/';
+        $image_prefix = 'https://abo389.github.io/image-server/images/categories/';
 
         // Loop through each category
         foreach ($data['categories'] as $categoryData) {

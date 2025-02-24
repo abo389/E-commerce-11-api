@@ -1,0 +1,226 @@
+[
+  {
+    "category": "Smartphones",
+    "brands": ["Apple", "Samsung", "Google", "OnePlus", "Xiaomi"]
+  },
+  {
+    "category": "Laptops",
+    "brands": ["Dell", "HP", "Lenovo", "Apple", "Asus"]
+  },
+  {
+    "category": "Headphones",
+    "brands": ["Sony", "Bose", "JBL", "Sennheiser", "Beats"]
+  },
+  {
+    "category": "Smart Home Devices",
+    "brands": ["Amazon (Echo)", "Google (Nest)", "Philips (Hue)", "Ring", "Arlo"]
+  },
+  {
+    "category": "Fiction",
+    "brands": ["Penguin Random House", "HarperCollins", "Macmillan", "Hachette", "Simon & Schuster"]
+  },
+  {
+    "category": "Non-Fiction",
+    "brands": ["Penguin Random House", "HarperCollins", "Oxford University Press", "National Geographic", "Wiley"]
+  },
+  {
+    "category": "Children's Books",
+    "brands": ["Scholastic", "Disney", "Usborne", "DK", "HarperCollins Children's Books"]
+  },
+  {
+    "category": "Textbooks",
+    "brands": ["Pearson", "McGraw-Hill", "Cengage", "Oxford University Press", "Wiley"]
+  },
+  {
+    "category": "Cookware",
+    "brands": ["T-fal", "Calphalon", "Le Creuset", "Cuisinart", "All-Clad"]
+  },
+  {
+    "category": "Furniture",
+    "brands": ["IKEA", "Ashley Furniture", "West Elm", "Pottery Barn", "Herman Miller"]
+  },
+  {
+    "category": "Home Decor",
+    "brands": ["Wayfair", "HomeGoods", "Crate & Barrel", "Pier 1", "Anthropologie"]
+  },
+  {
+    "category": "Small Appliances",
+    "brands": ["KitchenAid", "Ninja", "Instant Pot", "Breville", "Dyson"]
+  },
+  {
+    "category": "Men's Clothing",
+    "brands": ["Nike", "Adidas", "Levi's", "Ralph Lauren", "Tommy Hilfiger"]
+  },
+  {
+    "category": "Women's Clothing",
+    "brands": ["Zara", "H&M", "Calvin Klein", "Gucci", "Chanel"]
+  },
+  {
+    "category": "Shoes",
+    "brands": ["Nike", "Adidas", "Puma", "Skechers", "Clarks"]
+  },
+  {
+    "category": "Watches",
+    "brands": ["Rolex", "Casio", "Seiko", "Fossil", "TAG Heuer"]
+  },
+  {
+    "category": "Skincare",
+    "brands": ["Neutrogena", "Olay", "L'Oréal", "Cetaphil", "The Ordinary"]
+  },
+  {
+    "category": "Makeup",
+    "brands": ["MAC", "Maybelline", "Fenty Beauty", "NARS", "Estée Lauder"]
+  },
+  {
+    "category": "Haircare",
+    "brands": ["Pantene", "Dove", "Head & Shoulders", "Herbal Essences", "OGX"]
+  },
+  {
+    "category": "Fragrances",
+    "brands": ["Chanel", "Dior", "Calvin Klein", "Versace", "Jo Malone"]
+  },
+  {
+    "category": "Action Figures",
+    "brands": ["Hasbro (Marvel, Star Wars)", "Mattel (DC, WWE)", "Funko", "NECA", "McFarlane Toys"]
+  },
+  {
+    "category": "Board Games",
+    "brands": ["Hasbro (Monopoly, Scrabble)", "Ravensburger", "Catan Studio", "Asmodee", "Mattel"]
+  },
+  {
+    "category": "Puzzles",
+    "brands": ["Ravensburger", "Buffalo Games", "Ceaco", "Springbok", "Melissa & Doug"]
+  },
+  {
+    "category": "Outdoor Toys",
+    "brands": ["Little Tikes", "Step2", "Razor", "Radio Flyer", "Nerf"]
+  },
+  {
+    "category": "Fitness Equipment",
+    "brands": ["NordicTrack", "Peloton", "Bowflex", "Sole Fitness", "ProForm"]
+  },
+  {
+    "category": "Camping Gear",
+    "brands": ["Coleman", "The North Face", "REI", "MSR", "Marmot"]
+  },
+  {
+    "category": "Cycling",
+    "brands": ["Trek", "Specialized", "Giant", "Cannondale", "Schwinn"]
+  },
+  {
+    "category": "Team Sports",
+    "brands": ["Nike", "Adidas", "Under Armour", "Wilson", "Rawlings"]
+  },
+  {
+    "category": "Vitamins",
+    "brands": ["Centrum", "Nature Made", "Garden of Life", "One A Day", "NOW Foods"]
+  },
+  {
+    "category": "Medical Supplies",
+    "brands": ["Johnson & Johnson", "3M", "Medtronic", "BD", "Abbott"]
+  },
+  {
+    "category": "Cleaning Products",
+    "brands": ["Clorox", "Lysol", "Mr. Clean", "Tide", "Seventh Generation"]
+  },
+  {
+    "category": "Personal Care",
+    "brands": ["Gillette", "Colgate", "Oral-B", "Dove", "Aveeno"]
+  },
+  {
+    "category": "Car Parts",
+    "brands": ["Bosch", "Denso", "ACDelco", "Magna", "Delphi"]
+  },
+  {
+    "category": "Car Accessories",
+    "brands": ["WeatherTech", "Thule", "Husky Liners", "Covercraft", "Garmin"]
+  },
+  {
+    "category": "Tools & Equipment",
+    "brands": ["DeWalt", "Milwaukee", "Craftsman", "Stanley", "Bosch"]
+  },
+  {
+    "category": "Motorcycle Parts",
+    "brands": ["Yamaha", "Harley-Davidson", "Kawasaki", "Honda", "Suzuki"]
+  },
+  {
+    "category": "Pet Food",
+    "brands": ["Purina", "Royal Canin", "Hill's Science Diet", "Blue Buffalo", "Iams"]
+  },
+  {
+    "category": "Toys",
+    "brands": ["Kong", "PetSafe", "Chuckit!", "Nylabone", "Outward Hound"]
+  },
+  {
+    "category": "Grooming Products",
+    "brands": ["FURminator", "Wahl", "Hertzko", "Earthbath", "Chris Christensen"]
+  },
+  {
+    "category": "Pet Furniture",
+    "brands": ["MidWest Homes for Pets", "FurHaven", "Petmate", "Armarkat", "Best Friends by Sheri"]
+  },
+  {
+    "category": "Snacks",
+    "brands": ["Lay's", "Doritos", "Pringles", "KIND", "Clif Bar"]
+  },
+  {
+    "category": "Beverages",
+    "brands": ["Coca-Cola", "Pepsi", "Red Bull", "Nestlé", "Starbucks"]
+  },
+  {
+    "category": "Canned Goods",
+    "brands": ["Campbell's", "Del Monte", "Heinz", "Progresso", "Hormel"]
+  },
+  {
+    "category": "Organic Foods",
+    "brands": ["Amy's", "Annie's Homegrown", "Nature's Path", "Organic Valley", "Bob's Red Mill"]
+  },
+  {
+    "category": "Blu-rays",
+    "brands": ["Warner Bros", "Disney", "Universal", "Sony Pictures", "Paramount"]
+  },
+  {
+    "category": "DVDs",
+    "brands": ["Warner Bros", "Disney", "Universal", "Sony Pictures", "Paramount"]
+  },
+  {
+    "category": "TV Shows",
+    "brands": ["HBO", "Netflix", "Hulu", "Amazon Prime Video", "BBC"]
+  },
+  {
+    "category": "Documentaries",
+    "brands": ["National Geographic", "PBS", "Discovery", "BBC", "Netflix Originals"]
+  },
+  {
+    "category": "Consoles",
+    "brands": ["Sony (PlayStation)", "Microsoft (Xbox)", "Nintendo (Switch)", "Sega", "Atari"]
+  },
+  {
+    "category": "PC Games",
+    "brands": ["Steam", "Epic Games", "Blizzard", "Ubisoft", "EA (Electronic Arts)"]
+  },
+  {
+    "category": "Accessories",
+    "brands": ["Logitech", "Razer", "Corsair", "SteelSeries", "HyperX"]
+  },
+  {
+    "category": "Game Cards",
+    "brands": ["Nintendo eShop", "PlayStation Store", "Xbox Gift Cards", "Steam Wallet", "Roblox"]
+  },
+  {
+    "category": "Stationery",
+    "brands": ["Moleskine", "Pilot", "Sharpie", "Staedtler", "Paper Mate"]
+  },
+  {
+    "category": "Printers",
+    "brands": ["HP", "Canon", "Epson", "Brother", "Lexmark"]
+  },
+  {
+    "category": "Office Furniture",
+    "brands": ["Herman Miller", "Steelcase", "IKEA", "Haworth", "HON"]
+  },
+  {
+    "category": "School Supplies",
+    "brands": ["Crayola", "Mead", "Five Star", "Ticonderoga", "Elmer's"]
+  }
+]
