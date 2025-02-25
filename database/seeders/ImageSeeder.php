@@ -14,12 +14,18 @@ class ImageSeeder extends Seeder
      */
     public function run(): void
     {
-        // eatch product has 1 to 5 images
+        $jsonData = file_get_contents(__DIR__ . '/data/imageCount.json');
+        $data = json_decode($jsonData, true);
+        $prefix = 'https://abo389.github.io/image-server/images/products/';
         $product_count = Product::all()->count();
-        for ($i = 0; $i < $product_count; $i++) {
-            Image::factory(rand(1, 2))->create([
-                'product_id' => $i + 1
-            ]);
+        for ($i = 1; $i <= $product_count; $i++) {
+            $m = $i == 10 ? '.avif' : '.jpg';
+            for ($k=1; $k <= $data[$i]; $k++) { 
+                    Image::create([
+                        'product_id' => $i,
+                        'link' => $prefix."$i/".$k.$m,
+                    ]);
+            }
         }
     }
 }

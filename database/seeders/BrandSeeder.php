@@ -12,7 +12,8 @@ class BrandSeeder extends Seeder
      */
     public function run(): void
     {
-        $brands = ['LG', "Samsoung", "Haier", "Daikin", "Godrej", "IFB", "Panasonic"];
+        $jsonData = file_get_contents(__DIR__ . '/data/brands.json');
+        $brands = json_decode($jsonData, true);
 
         foreach ($brands as $brand) {
             \App\Models\Brand::create([

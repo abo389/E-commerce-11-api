@@ -1,0 +1,1762 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 15 Pro Max",
+    "description": "The latest flagship smartphone from Apple, featuring a 6.7-inch Super Retina XDR display, A17 Pro chip, and a triple-camera system with 5x optical zoom.",
+    "price": 1299.99,
+    "stock": 93,
+    "discount": 31,
+    "delivery_time": "2025-02-27 13:00:37",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "images": [],
+    "reviews": [
+      {
+        "title": "Great performance and camera",
+        "rating": "5",
+        "comment": "This phone has an amazing camera and the performance is top-notch.",
+        "is_approved": 1
+      },
+      {
+        "title": "Battery could be better",
+        "rating": "3",
+        "comment": "I wish the battery life lasted longer, but overall a great phone.",
+        "is_approved": 1
+      },
+      {
+        "title": "Overpriced",
+        "rating": "2",
+        "comment": "It's a good phone, but way too expensive for what it offers.",
+        "is_approved": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dell XPS 15",
+    "description": "A powerful laptop with a 15.6-inch 4K display, Intel Core i7 processor, 16GB RAM, and a 1TB SSD, perfect for work and creativity.",
+    "price": 1899.99,
+    "stock": 47,
+    "discount": 20,
+    "delivery_time": "2025-03-01 15:00:00",
+    "category": "Laptops",
+    "brand": "Dell",
+    "images": [],
+    "reviews": [
+      {
+        "title": "Reliable and durable",
+        "rating": "5",
+        "comment": "I have been using this laptop for years, and it's still going strong.",
+        "is_approved": 1
+      },
+      {
+        "title": "Good for work",
+        "rating": "4",
+        "comment": "This laptop handles my daily work well. No major complaints.",
+        "is_approved": 1
+      },
+      {
+        "title": "Average display",
+        "rating": "3",
+        "comment": "The screen quality could be better, but it's still a solid machine.",
+        "is_approved": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sony WH-1000XM5",
+    "description": "Premium noise-canceling wireless headphones with superior sound quality and up to 30 hours of battery life.",
+    "price": 399.99,
+    "stock": 150,
+    "discount": 15,
+    "delivery_time": "2025-02-28 12:00:00",
+    "category": "Headphones",
+    "brand": "Sony",
+    "images": [],
+    "reviews": [
+      {
+        "title": "Amazing noise cancellation",
+        "rating": "5",
+        "comment": "The noise cancellation is the best I've ever experienced!",
+        "is_approved": 1
+      },
+      {
+        "title": "Comfortable but pricey",
+        "rating": "4",
+        "comment": "These headphones are super comfortable, but a bit expensive.",
+        "is_approved": 1
+      },
+      {
+        "title": "Good but fragile",
+        "rating": "3",
+        "comment": "The sound quality is great, but they feel a bit delicate.",
+        "is_approved": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Amazon Echo (4th Gen)",
+    "description": "Smart speaker with Alexa that delivers premium sound and smart home integration.",
+    "price": 99.99,
+    "stock": 200,
+    "discount": 10,
+    "delivery_time": "2025-03-02 10:00:00",
+    "category": "Smart Home Devices",
+    "brand": "Amazon (Echo)",
+    "images": [],
+    "reviews": [
+      {
+        "title": "Great smart home assistant",
+        "rating": "5",
+        "comment": "Alexa makes everything so convenient!",
+        "is_approved": 1
+      },
+      {
+        "title": "Decent sound quality",
+        "rating": "4",
+        "comment": "Good for smart home control, but the speaker could be better.",
+        "is_approved": 1
+      },
+      {
+        "title": "Privacy concerns",
+        "rating": "3",
+        "comment": "Works well, but I worry about privacy issues.",
+        "is_approved": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "The Night Circus by Erin Morgenstern",
+    "description": "A bestselling fantasy novel about a mysterious, magical competition between two young illusionists.",
+    "price": 14.99,
+    "stock": 300,
+    "discount": 5,
+    "delivery_time": "2025-02-29 09:00:00",
+    "category": "Fiction",
+    "brand": "Penguin Random House",
+    "images": [],
+    "reviews": [
+      {
+        "title": "Beautiful storytelling",
+        "rating": "5",
+        "comment": "One of the most beautifully written books I've ever read!",
+        "is_approved": 1
+      },
+      {
+        "title": "Slow-paced but immersive",
+        "rating": "4",
+        "comment": "Takes a while to get into, but the world-building is incredible.",
+        "is_approved": 1
+      },
+      {
+        "title": "Not for everyone",
+        "rating": "3",
+        "comment": "Some may find it too slow, but the atmosphere is stunning.",
+        "is_approved": 1
+      }
+    ]
+  },
+  {
+  "id": 1,
+  "name": "Atomic Habits",
+  "description": "A revolutionary guide to building good habits, breaking bad ones, and mastering the tiny behaviors that lead to remarkable results. Written by James Clear.",
+  "price": 18.99,
+  "stock": 120,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Non-Fiction",
+  "brand": "Penguin Random House",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Life-changing insights",
+      "rating": "5",
+      "comment": "This book completely changed the way I approach productivity and habits.",
+      "is_approved": 1
+    },
+    {
+      "title": "Practical and easy to follow",
+      "rating": "4",
+      "comment": "Clear explanations with actionable steps make this a must-read.",
+      "is_approved": 1
+    },
+    {
+      "title": "Repetitive at times",
+      "rating": "3",
+      "comment": "The core ideas are great, but some parts feel a bit redundant.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "The Magic School Bus: Inside the Human Body",
+  "description": "Join Ms. Frizzle and her class on a wild ride through the human body in this fun and educational children's book, filled with fascinating facts and vibrant illustrations.",
+  "price": 8.99,
+  "stock": 150,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Children's Books",
+  "brand": "Scholastic",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Engaging and educational",
+      "rating": "5",
+      "comment": "My kids loved it! A great way to teach science in a fun way.",
+      "is_approved": 1
+    },
+    {
+      "title": "Beautiful illustrations",
+      "rating": "4",
+      "comment": "The pictures are colorful and help explain complex topics easily.",
+      "is_approved": 1
+    },
+    {
+      "title": "Some parts are too complex for younger kids",
+      "rating": "3",
+      "comment": "Great book, but some details might be a bit advanced for very young readers.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "University Physics with Modern Physics",
+  "description": "A comprehensive physics textbook by Young and Freedman, covering classical mechanics, electromagnetism, thermodynamics, and modern physics with real-world applications.",
+  "price": 89.99,
+  "stock": 75,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Textbooks",
+  "brand": "Pearson",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great for college physics",
+      "rating": "5",
+      "comment": "This book helped me understand physics concepts clearly with detailed examples and problem sets.",
+      "is_approved": 1
+    },
+    {
+      "title": "Dense but informative",
+      "rating": "4",
+      "comment": "It’s a bit heavy on the theory, but the explanations are thorough and well-structured.",
+      "is_approved": 1
+    },
+    {
+      "title": "Expensive but worth it",
+      "rating": "3",
+      "comment": "The price is quite high, but it’s an essential textbook for physics students.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "T-fal Ultimate Hard Anodized Nonstick 12-Piece Cookware Set",
+  "description": "A durable nonstick cookware set featuring scratch-resistant hard-anodized aluminum, Thermo-Spot heat indicator, and dishwasher-safe convenience.",
+  "price": 149.99,
+  "stock": 50,
+  "discount": 20,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Cookware",
+  "brand": "T-fal",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Excellent nonstick quality",
+      "rating": "5",
+      "comment": "Food never sticks, and cleaning is super easy! Highly recommend.",
+      "is_approved": 1
+    },
+    {
+      "title": "Good value for the price",
+      "rating": "4",
+      "comment": "The set covers all basic cooking needs, though the lids get a bit hot.",
+      "is_approved": 1
+    },
+    {
+      "title": "Scratches over time",
+      "rating": "3",
+      "comment": "The nonstick coating works well initially but shows wear after heavy use.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "IKEA MALM High Bed Frame with Storage",
+  "description": "A stylish and functional high bed frame with spacious storage drawers underneath, perfect for maximizing bedroom space while maintaining a modern aesthetic.",
+  "price": 299.99,
+  "stock": 40,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Furniture",
+  "brand": "IKEA",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great storage solution",
+      "rating": "5",
+      "comment": "The storage drawers are super spacious, and the bed feels sturdy!",
+      "is_approved": 1
+    },
+    {
+      "title": "Modern and sleek",
+      "rating": "4",
+      "comment": "Love the minimalist design. Assembly took a while, but worth it.",
+      "is_approved": 1
+    },
+    {
+      "title": "Difficult to assemble",
+      "rating": "3",
+      "comment": "Good quality, but the instructions were a bit confusing and time-consuming.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Wayfair Gold Sunburst Wall Mirror",
+  "description": "A stunning gold sunburst mirror that adds elegance and brightness to any room, featuring a sleek modern design with high-quality reflective glass.",
+  "price": 79.99,
+  "stock": 60,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Home Decor",
+  "brand": "Wayfair",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Beautiful statement piece",
+      "rating": "5",
+      "comment": "Absolutely gorgeous mirror! It elevates my living room decor effortlessly.",
+      "is_approved": 1
+    },
+    {
+      "title": "Great quality for the price",
+      "rating": "4",
+      "comment": "The mirror is sturdy and well-made. Wish it was a bit larger though.",
+      "is_approved": 1
+    },
+    {
+      "title": "Packaging could be better",
+      "rating": "3",
+      "comment": "Arrived with a small scratch due to poor packaging, but still looks nice.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "KitchenAid Artisan Series 5-Quart Stand Mixer",
+  "description": "A versatile and powerful stand mixer with a 5-quart stainless steel bowl, 10-speed settings, and multiple attachment options for all your baking and cooking needs.",
+  "price": 449.99,
+  "stock": 35,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Small Appliances",
+  "brand": "KitchenAid",
+  "images": [],
+  "reviews": [
+    {
+      "title": "A must-have for bakers",
+      "rating": "5",
+      "comment": "This mixer is a game-changer! Makes baking so much easier and more enjoyable.",
+      "is_approved": 1
+    },
+    {
+      "title": "Solid and durable",
+      "rating": "3",
+      "comment": "Heavy-duty and well-built, but a bit pricey for casual users.",
+      "is_approved": 1
+    },
+    {
+      "title": "Loud but effective",
+      "rating": "4",
+      "comment": "The motor is a bit noisy, but it gets the job done perfectly.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Nike Sportswear Club Fleece Pullover Hoodie",
+  "description": "A classic Nike hoodie made with soft fleece for everyday comfort, featuring a kangaroo pocket and an adjustable drawstring hood.",
+  "price": 59.99,
+  "stock": 100,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Men's Clothing",
+  "brand": "Nike",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Super comfortable",
+      "rating": "5",
+      "comment": "Soft, warm, and fits perfectly! Great for casual wear.",
+      "is_approved": 1
+    },
+    {
+      "title": "Good but runs small",
+      "rating": "3",
+      "comment": "The material is nice, but I recommend sizing up for a better fit.",
+      "is_approved": 1
+    },
+    {
+      "title": "Nice quality but expensive",
+      "rating": "4",
+      "comment": "Great hoodie, but I feel it’s a bit overpriced for what it is.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Zara Oversized Blazer",
+  "description": "A stylish oversized blazer with a relaxed fit, featuring padded shoulders and a sleek design perfect for both casual and formal wear.",
+  "price": 89.99,
+  "stock": 75,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Women's Clothing",
+  "brand": "Zara",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Elegant and trendy",
+      "rating": "5",
+      "comment": "Love the oversized fit! It's perfect for a chic and effortless look.",
+      "is_approved": 1
+    },
+    {
+      "title": "Runs a bit large",
+      "rating": "3",
+      "comment": "Good quality, but I had to exchange for a smaller size.",
+      "is_approved": 1
+    },
+    {
+      "title": "Great value for money",
+      "rating": "4",
+      "comment": "Looks expensive and feels premium. Definitely worth it!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Nike Air Force 1 '07",
+  "description": "A timeless classic, the Nike Air Force 1 '07 features a clean leather upper, durable rubber sole, and Nike Air cushioning for all-day comfort.",
+  "price": 110.00,
+  "stock": 120,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Shoes",
+  "brand": "Nike",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Classic and comfortable",
+      "rating": "5",
+      "comment": "These are my go-to sneakers! Super comfortable and stylish.",
+      "is_approved": 1
+    },
+    {
+      "title": "Creases easily",
+      "rating": "3",
+      "comment": "Great look, but they crease pretty quickly. Still love them though!",
+      "is_approved": 1
+    },
+    {
+      "title": "Perfect for everyday wear",
+      "rating": "4",
+      "comment": "They go with everything! A bit stiff at first but break in nicely.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Rolex Submariner Date",
+  "description": "The Rolex Submariner Date is an iconic luxury dive watch featuring a 41mm Oystersteel case, a Cerachrom bezel insert, and water resistance up to 300 meters.",
+  "price": 10999.99,
+  "stock": 10,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Watches",
+  "brand": "Rolex",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Timeless and elegant",
+      "rating": "5",
+      "comment": "The craftsmanship is unmatched. A perfect investment piece.",
+      "is_approved": 1
+    },
+    {
+      "title": "Expensive but worth it",
+      "rating": "4",
+      "comment": "It’s pricey, but you’re paying for quality and prestige.",
+      "is_approved": 1
+    },
+    {
+      "title": "Difficult to find",
+      "rating": "3",
+      "comment": "Amazing watch, but availability is a big issue. Had to wait months!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Neutrogena Hydro Boost Water Gel",
+  "description": "A lightweight, oil-free moisturizer infused with hyaluronic acid to provide long-lasting hydration and a refreshed, glowing complexion.",
+  "price": 24.99,
+  "stock": 200,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Skincare",
+  "brand": "Neutrogena",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Super hydrating!",
+      "rating": "5",
+      "comment": "This moisturizer makes my skin feel so soft and refreshed!",
+      "is_approved": 1
+    },
+    {
+      "title": "Good but not for oily skin",
+      "rating": "3",
+      "comment": "Great hydration, but it made my oily skin feel a little greasy.",
+      "is_approved": 1
+    },
+    {
+      "title": "Lightweight and refreshing",
+      "rating": "4",
+      "comment": "Love how light it feels on my skin. Absorbs quickly and works well under makeup.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "MAC Matte Lipstick - Ruby Woo",
+  "description": "A highly pigmented, long-lasting matte lipstick in the iconic Ruby Woo shade, delivering intense color payoff with a smooth, non-drying finish.",
+  "price": 19.99,
+  "stock": 150,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Makeup",
+  "brand": "MAC",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Perfect red lipstick!",
+      "rating": "5",
+      "comment": "This shade is gorgeous and suits all skin tones. Stays on for hours!",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit drying",
+      "rating": "3",
+      "comment": "The color is amazing, but it feels a little dry on my lips.",
+      "is_approved": 1
+    },
+    {
+      "title": "Long-lasting and vibrant",
+      "rating": "4",
+      "comment": "Lasts all day, even after eating and drinking. A staple in my makeup bag!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Pantene Pro-V Moisture Renewal Shampoo",
+  "description": "A nourishing shampoo infused with Pro-V nutrients to deeply hydrate and strengthen hair, leaving it soft, shiny, and more manageable.",
+  "price": 9.99,
+  "stock": 300,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Haircare",
+  "brand": "Pantene",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Leaves hair soft and shiny",
+      "rating": "5",
+      "comment": "My hair feels so much healthier and looks shiny after using this shampoo!",
+      "is_approved": 1
+    },
+    {
+      "title": "Great for dry hair",
+      "rating": "4",
+      "comment": "Really helps with dryness, but I wish it had a stronger scent.",
+      "is_approved": 1
+    },
+    {
+      "title": "Not for oily hair",
+      "rating": "3",
+      "comment": "Works well for moisture, but made my hair feel greasy faster.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Chanel Coco Mademoiselle Eau de Parfum",
+  "description": "A modern and sophisticated fragrance with fresh citrus top notes, a floral heart, and a warm, sensual base of patchouli and vanilla.",
+  "price": 149.99,
+  "stock": 50,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Fragrances",
+  "brand": "Chanel",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Elegant and timeless",
+      "rating": "5",
+      "comment": "This is my go-to perfume! It’s classy, feminine, and lasts all day.",
+      "is_approved": 1
+    },
+    {
+      "title": "Strong but beautiful",
+      "rating": "4",
+      "comment": "The scent is quite strong at first but settles into a lovely, long-lasting fragrance.",
+      "is_approved": 1
+    },
+    {
+      "title": "Too expensive",
+      "rating": "3",
+      "comment": "Great fragrance, but I feel like it’s overpriced for what it is.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Hasbro Marvel Legends Series Spider-Man Action Figure",
+  "description": "A premium 6-inch-scale Spider-Man action figure with multiple points of articulation and detailed design inspired by Marvel Comics.",
+  "price": 29.99,
+  "stock": 150,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Action Figures",
+  "brand": "Hasbro",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great collector’s item",
+      "rating": "5",
+      "comment": "The detail and articulation are amazing! Perfect for any Marvel fan.",
+      "is_approved": 1
+    },
+    {
+      "title": "Nice but joints are a bit stiff",
+      "rating": "4",
+      "comment": "The figure looks great, but some of the joints were tough to move at first.",
+      "is_approved": 1
+    },
+    {
+      "title": "Too expensive for the size",
+      "rating": "3",
+      "comment": "It’s a nice figure, but I feel like it should be cheaper.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Monopoly Classic Board Game",
+  "description": "The classic property trading game where players buy, sell, and trade their way to wealth. Features iconic properties, Chance and Community Chest cards, and fun for the whole family.",
+  "price": 24.99,
+  "stock": 100,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Board Games",
+  "brand": "Hasbro",
+  "images": [],
+  "reviews": [
+    {
+      "title": "A timeless classic!",
+      "rating": "5",
+      "comment": "I’ve been playing this game since childhood, and it’s still as fun as ever!",
+      "is_approved": 1
+    },
+    {
+      "title": "Takes too long to finish",
+      "rating": "3",
+      "comment": "Great game, but sometimes it feels like it never ends!",
+      "is_approved": 1
+    },
+    {
+      "title": "Perfect for family game nights",
+      "rating": "4",
+      "comment": "Brings the family together for fun and strategy!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Ravensburger 1000-Piece Paris Skyline Puzzle",
+  "description": "A high-quality 1000-piece jigsaw puzzle featuring a stunning Paris skyline, perfect for puzzle enthusiasts of all ages.",
+  "price": 19.99,
+  "stock": 80,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Puzzles",
+  "brand": "Ravensburger",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great quality puzzle!",
+      "rating": "5",
+      "comment": "The pieces fit perfectly, and the image is beautiful!",
+      "is_approved": 1
+    },
+    {
+      "title": "Challenging but fun",
+      "rating": "4",
+      "comment": "Took me a while to complete, but it was super satisfying!",
+      "is_approved": 1
+    },
+    {
+      "title": "Wish it had larger pieces",
+      "rating": "3",
+      "comment": "The pieces are a bit small, but the quality is top-notch.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Little Tikes Easy Store Large Slide",
+  "description": "A fun and durable outdoor slide designed for kids, featuring a wide base for stability and easy folding for storage.",
+  "price": 99.99,
+  "stock": 50,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Outdoor Toys",
+  "brand": "Little Tikes",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Perfect for toddlers!",
+      "rating": "5",
+      "comment": "My kids love this slide! It's sturdy and easy to set up.",
+      "is_approved": 1
+    },
+    {
+      "title": "Great quality but a bit small",
+      "rating": "4",
+      "comment": "Well-made, but my 5-year-old outgrew it quickly.",
+      "is_approved": 1
+    },
+    {
+      "title": "Easy to store",
+      "rating": "5",
+      "comment": "Love how it folds up easily when not in use. Great for small yards!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "NordicTrack Commercial 1750 Treadmill",
+  "description": "A high-performance treadmill featuring a 10-inch interactive HD touchscreen, incline and decline training, and a powerful 3.75 CHP motor.",
+  "price": 1799.99,
+  "stock": 30,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Fitness Equipment",
+  "brand": "NordicTrack",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great for home workouts!",
+      "rating": "5",
+      "comment": "The interactive screen and incline settings make workouts super engaging.",
+      "is_approved": 1
+    },
+    {
+      "title": "Solid treadmill, but pricey",
+      "rating": "4",
+      "comment": "It’s well-built and has great features, but it’s quite expensive.",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit noisy",
+      "rating": "3",
+      "comment": "Works well, but it’s louder than I expected.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Coleman Sundome 4-Person Tent",
+  "description": "A spacious and easy-to-set-up 4-person tent with WeatherTec system to keep you dry and large windows for ventilation.",
+  "price": 99.99,
+  "stock": 75,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Camping Gear",
+  "brand": "Coleman",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great for weekend camping",
+      "rating": "5",
+      "comment": "Easy to set up, spacious, and kept us dry during rain!",
+      "is_approved": 1
+    },
+    {
+      "title": "Solid quality for the price",
+      "rating": "4",
+      "comment": "Decent tent, but could use more ventilation in humid weather.",
+      "is_approved": 1
+    },
+    {
+      "title": "Poles could be stronger",
+      "rating": "3",
+      "comment": "Nice tent, but one of the poles bent slightly after a windy night.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Trek FX 3 Disc Hybrid Bike",
+  "description": "A lightweight hybrid bike with a high-performance aluminum frame, hydraulic disc brakes, and a comfortable design for fitness and commuting.",
+  "price": 999.99,
+  "stock": 40,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Cycling",
+  "brand": "Trek",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Smooth and fast ride",
+      "rating": "5",
+      "comment": "Perfect for commuting! Smooth shifting and comfortable riding position.",
+      "is_approved": 1
+    },
+    {
+      "title": "Great quality but expensive",
+      "rating": "4",
+      "comment": "Love the bike, but wish it was a bit more affordable.",
+      "is_approved": 1
+    },
+    {
+      "title": "Brakes are excellent",
+      "rating": "5",
+      "comment": "The disc brakes make a huge difference in control and stopping power.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Nike Flight Soccer Ball",
+  "description": "A premium match-quality soccer ball with Aerowsculpt technology for superior accuracy and consistent flight.",
+  "price": 159.99,
+  "stock": 60,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Team Sports",
+  "brand": "Nike",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great for serious players",
+      "rating": "5",
+      "comment": "The best ball I’ve played with! Feels amazing and flies perfectly.",
+      "is_approved": 1
+    },
+    {
+      "title": "Good quality but pricey",
+      "rating": "4",
+      "comment": "Excellent durability, but it’s a bit expensive for casual players.",
+      "is_approved": 1
+    },
+    {
+      "title": "Perfect for matches",
+      "rating": "5",
+      "comment": "This ball performs just like professional ones. Worth every penny!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Centrum Adults Multivitamin",
+  "description": "A daily multivitamin with essential nutrients, including vitamins D, B12, and C, to support overall health and immunity.",
+  "price": 24.99,
+  "stock": 100,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Vitamins",
+  "brand": "Centrum",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great daily vitamins!",
+      "rating": "5",
+      "comment": "I feel more energized since taking these daily. Highly recommend!",
+      "is_approved": 1
+    },
+    {
+      "title": "Good value for the price",
+      "rating": "4",
+      "comment": "Contains all the essentials, but I wish the pills were smaller.",
+      "is_approved": 1
+    },
+    {
+      "title": "No bad aftertaste",
+      "rating": "5",
+      "comment": "Unlike other vitamins, these don’t leave a weird aftertaste. Love them!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Johnson & Johnson First Aid Kit",
+  "description": "A compact and comprehensive first aid kit containing bandages, antiseptic wipes, gauze pads, and other essential medical supplies for emergencies.",
+  "price": 19.99,
+  "stock": 75,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Medical Supplies",
+  "brand": "Johnson & Johnson",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great for home and travel",
+      "rating": "5",
+      "comment": "Perfect size for my car and home. Has all the essentials!",
+      "is_approved": 1
+    },
+    {
+      "title": "Useful but could have more items",
+      "rating": "4",
+      "comment": "Good quality, but I wish it had more bandages.",
+      "is_approved": 1
+    },
+    {
+      "title": "Lifesaver for emergencies",
+      "rating": "5",
+      "comment": "Used it on a hiking trip—super handy and well-organized!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Clorox Disinfecting Wipes - Fresh Scent",
+  "description": "Powerful disinfecting wipes that kill 99.9% of germs, including viruses and bacteria, while leaving a fresh scent.",
+  "price": 8.99,
+  "stock": 120,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Cleaning Products",
+  "brand": "Clorox",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Super convenient!",
+      "rating": "5",
+      "comment": "These wipes make cleaning quick and easy. I keep them everywhere!",
+      "is_approved": 1
+    },
+    {
+      "title": "Strong smell but effective",
+      "rating": "4",
+      "comment": "They clean well, but the scent is a bit strong for me.",
+      "is_approved": 1
+    },
+    {
+      "title": "A must-have for cleaning",
+      "rating": "5",
+      "comment": "I use these daily, especially during flu season. Works great!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Gillette Fusion5 Razor",
+  "description": "A premium razor with five anti-friction blades for a close, comfortable shave and a precision trimmer for hard-to-reach areas.",
+  "price": 12.99,
+  "stock": 80,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Personal Care",
+  "brand": "Gillette",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Super smooth shave!",
+      "rating": "5",
+      "comment": "Best razor I've used. Leaves my skin feeling smooth without irritation.",
+      "is_approved": 1
+    },
+    {
+      "title": "Blades last a long time",
+      "rating": "5",
+      "comment": "The blades stay sharp for weeks. Worth the price!",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit expensive",
+      "rating": "4",
+      "comment": "Great quality, but replacement blades are pricey.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Bosch ICON Wiper Blades",
+  "description": "Premium beam wiper blades with dual rubber technology for superior all-weather performance and long-lasting durability.",
+  "price": 26.99,
+  "stock": 50,
+  "discount": 8,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Car Parts",
+  "brand": "Bosch",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Best wiper blades!",
+      "rating": "5",
+      "comment": "These work great in heavy rain and last much longer than other brands.",
+      "is_approved": 1
+    },
+    {
+      "title": "Easy to install",
+      "rating": "5",
+      "comment": "Took just a few minutes to install, and they work perfectly.",
+      "is_approved": 1
+    },
+    {
+      "title": "A little pricey",
+      "rating": "4",
+      "comment": "They're expensive, but the quality makes up for it.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "WeatherTech FloorLiner Mats",
+  "description": "High-quality all-weather floor mats designed to protect your vehicle’s interior from dirt, spills, and wear.",
+  "price": 129.99,
+  "stock": 45,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Car Accessories",
+  "brand": "WeatherTech",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Perfect fit and great quality!",
+      "rating": "5",
+      "comment": "These mats fit my car perfectly and keep the interior clean.",
+      "is_approved": 1
+    },
+    {
+      "title": "Durable but expensive",
+      "rating": "4",
+      "comment": "They are top-notch, but the price is a bit high.",
+      "is_approved": 1
+    },
+    {
+      "title": "Best floor mats I've owned",
+      "rating": "5",
+      "comment": "They stay in place and are super easy to clean. Highly recommend!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Yamaha OEM Brake Pads",
+  "description": "High-performance OEM brake pads designed for Yamaha motorcycles, ensuring smooth braking and long-lasting durability.",
+  "price": 49.99,
+  "stock": 35,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Motorcycle Parts",
+  "brand": "Yamaha",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Perfect fit and great stopping power!",
+      "rating": "5",
+      "comment": "These brake pads fit my Yamaha perfectly and provide excellent braking performance.",
+      "is_approved": 1
+    },
+    {
+      "title": "Good quality but a bit pricey",
+      "rating": "4",
+      "comment": "They work well, but I found similar quality pads for a lower price.",
+      "is_approved": 1
+    },
+    {
+      "title": "Smooth braking",
+      "rating": "5",
+      "comment": "Really impressed with the performance. No squeaking and smooth braking!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Purina Pro Plan Adult Dog Food",
+  "description": "High-protein dry dog food with real chicken as the first ingredient, enriched with probiotics for digestive health.",
+  "price": 42.99,
+  "stock": 100,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Pet Food",
+  "brand": "Purina",
+  "images": [],
+  "reviews": [
+    {
+      "title": "My dog loves it!",
+      "rating": "5",
+      "comment": "Ever since switching to this, my dog has been healthier and more active.",
+      "is_approved": 1
+    },
+    {
+      "title": "Great ingredients",
+      "rating": "5",
+      "comment": "I love that real chicken is the first ingredient. Highly recommended!",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit expensive",
+      "rating": "4",
+      "comment": "Great quality, but I wish it was a little cheaper.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Kong Classic Dog Toy",
+  "description": "Durable chew toy designed to satisfy dogs' instinctual needs while providing mental stimulation. Can be stuffed with treats for added fun.",
+  "price": 14.99,
+  "stock": 80,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Toys",
+  "brand": "Kong",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Best toy for aggressive chewers!",
+      "rating": "5",
+      "comment": "My dog destroys most toys, but this one has lasted for months.",
+      "is_approved": 1
+    },
+    {
+      "title": "Keeps my dog entertained",
+      "rating": "5",
+      "comment": "Stuffing it with peanut butter keeps my pup busy for hours!",
+      "is_approved": 1
+    },
+    {
+      "title": "Good but wish it was bigger",
+      "rating": "4",
+      "comment": "Great quality, but I should have ordered a larger size for my dog.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "FURminator Deshedding Tool for Dogs",
+  "description": "An effective deshedding tool designed to reduce shedding up to 90%, featuring a stainless steel edge to remove loose fur without damaging the coat.",
+  "price": 29.99,
+  "stock": 60,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Grooming Products",
+  "brand": "FURminator",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Works amazingly well!",
+      "rating": "5",
+      "comment": "This tool removes so much loose fur, my house is much cleaner now!",
+      "is_approved": 1
+    },
+    {
+      "title": "My dog loves it",
+      "rating": "5",
+      "comment": "Surprisingly, my dog enjoys being brushed with this. No more fur everywhere!",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit pricey but worth it",
+      "rating": "4",
+      "comment": "It’s expensive, but it really works. My dog's coat looks great!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "MidWest Homes for Pets Deluxe Dog Crate",
+  "description": "A sturdy and comfortable dog crate with double doors, adjustable divider panel, and leak-proof plastic pan for easy cleaning.",
+  "price": 89.99,
+  "stock": 50,
+  "discount": 12,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Pet Furniture",
+  "brand": "MidWest Homes for Pets",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great quality and sturdy",
+      "rating": "5",
+      "comment": "This crate is well-built and my dog feels comfortable inside.",
+      "is_approved": 1
+    },
+    {
+      "title": "Perfect for training",
+      "rating": "5",
+      "comment": "The adjustable divider was great for my puppy’s training.",
+      "is_approved": 1
+    },
+    {
+      "title": "Easy to assemble",
+      "rating": "4",
+      "comment": "Took just a few minutes to set up. Very convenient!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Lay's Classic Potato Chips",
+  "description": "Crispy, light, and perfectly salted potato chips made from quality potatoes for a delicious snacking experience.",
+  "price": 3.49,
+  "stock": 200,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Snacks",
+  "brand": "Lay's",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Classic and delicious",
+      "rating": "5",
+      "comment": "Lay’s never disappoints! Perfect for any occasion.",
+      "is_approved": 1
+    },
+    {
+      "title": "Crispy and fresh",
+      "rating": "5",
+      "comment": "The chips are always fresh and have just the right amount of salt.",
+      "is_approved": 1
+    },
+    {
+      "title": "Too salty for me",
+      "rating": "3",
+      "comment": "Good crunch, but I wish they had a lower-sodium option.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Coca-Cola Original Taste",
+  "description": "The classic, refreshing cola drink with the perfect balance of carbonation and sweetness, enjoyed worldwide for over a century.",
+  "price": 1.99,
+  "stock": 500,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Beverages",
+  "brand": "Coca-Cola",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Classic and refreshing",
+      "rating": "5",
+      "comment": "Nothing beats an ice-cold Coke on a hot day!",
+      "is_approved": 1
+    },
+    {
+      "title": "Perfect fizz",
+      "rating": "5",
+      "comment": "Love the carbonation level, always refreshing.",
+      "is_approved": 1
+    },
+    {
+      "title": "Too much sugar",
+      "rating": "3",
+      "comment": "Tastes great but I wish there was a version with less sugar.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Campbell's Classic Chicken Noodle Soup",
+  "description": "A comforting and delicious chicken noodle soup made with quality ingredients, including tender chicken, egg noodles, and flavorful broth.",
+  "price": 2.99,
+  "stock": 150,
+  "discount": 8,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Canned Goods",
+  "brand": "Campbell's",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Comfort food at its best",
+      "rating": "5",
+      "comment": "This soup always makes me feel better when I'm under the weather!",
+      "is_approved": 1
+    },
+    {
+      "title": "Tastes great",
+      "rating": "5",
+      "comment": "The broth is flavorful, and the noodles are soft but not mushy.",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit salty",
+      "rating": "3",
+      "comment": "Good taste, but I wish it had less sodium.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Amy's Organic Lentil Soup",
+  "description": "A hearty and nutritious organic lentil soup made with wholesome ingredients, perfect for a healthy and delicious meal.",
+  "price": 4.99,
+  "stock": 120,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Organic Foods",
+  "brand": "Amy's",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Healthy and tasty",
+      "rating": "5",
+      "comment": "Love that it’s organic and packed with flavor!",
+      "is_approved": 1
+    },
+    {
+      "title": "Great for quick meals",
+      "rating": "5",
+      "comment": "Perfect for when I need a healthy meal in a hurry.",
+      "is_approved": 1
+    },
+    {
+      "title": "Wish it had more seasoning",
+      "rating": "4",
+      "comment": "Good quality but could use a bit more spice.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "The Dark Knight Trilogy (Blu-ray)",
+  "description": "A high-definition Blu-ray collection of Christopher Nolan's iconic Batman trilogy, including Batman Begins, The Dark Knight, and The Dark Knight Rises.",
+  "price": 29.99,
+  "stock": 75,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Blu-rays",
+  "brand": "Warner Bros",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Best superhero trilogy ever!",
+      "rating": "5",
+      "comment": "Amazing storytelling and visuals. A must-have for any Batman fan!",
+      "is_approved": 1
+    },
+    {
+      "title": "Great quality",
+      "rating": "5",
+      "comment": "The Blu-ray quality is outstanding. Crisp picture and sound.",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit expensive",
+      "rating": "4",
+      "comment": "Great movies, but I wish it was a little cheaper.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Harry Potter: The Complete 8-Film Collection (DVD)",
+  "description": "A complete collection of all eight Harry Potter films on DVD, bringing the magic of Hogwarts to your home.",
+  "price": 39.99,
+  "stock": 100,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "DVDs",
+  "brand": "Warner Bros",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Perfect for Potter fans!",
+      "rating": "5",
+      "comment": "A fantastic collection for any Harry Potter lover. Great quality and packaging!",
+      "is_approved": 1
+    },
+    {
+      "title": "Nostalgic and magical",
+      "rating": "5",
+      "comment": "Brings back childhood memories. The movies are timeless!",
+      "is_approved": 1
+    },
+    {
+      "title": "Good quality, but I prefer Blu-ray",
+      "rating": "4",
+      "comment": "DVD quality is fine, but the Blu-ray version has better visuals.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Game of Thrones: The Complete Series (Blu-ray)",
+  "description": "All eight seasons of HBO's epic fantasy series Game of Thrones in stunning Blu-ray quality, featuring bonus content and behind-the-scenes footage.",
+  "price": 99.99,
+  "stock": 50,
+  "discount": 20,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "TV Shows",
+  "brand": "HBO",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Amazing series!",
+      "rating": "5",
+      "comment": "The best fantasy TV show ever! Great quality on Blu-ray.",
+      "is_approved": 1
+    },
+    {
+      "title": "Love the extras",
+      "rating": "5",
+      "comment": "The behind-the-scenes content is incredible. A must-have for fans!",
+      "is_approved": 1
+    },
+    {
+      "title": "Disappointed with the ending",
+      "rating": "3",
+      "comment": "The early seasons were fantastic, but the last season felt rushed.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Planet Earth II (Blu-ray)",
+  "description": "A breathtaking documentary series from National Geographic showcasing the wonders of nature with stunning visuals and narration by David Attenborough.",
+  "price": 24.99,
+  "stock": 80,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Documentaries",
+  "brand": "National Geographic",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Visually stunning!",
+      "rating": "5",
+      "comment": "The cinematography is absolutely breathtaking. Highly recommend!",
+      "is_approved": 1
+    },
+    {
+      "title": "Informative and entertaining",
+      "rating": "5",
+      "comment": "One of the best nature documentaries ever made.",
+      "is_approved": 1
+    },
+    {
+      "title": "Needs more episodes",
+      "rating": "4",
+      "comment": "I wish there were more episodes, but it's still an amazing watch.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Sony PlayStation 5",
+  "description": "The latest PlayStation console featuring ultra-fast SSD storage, stunning 4K graphics, and an immersive gaming experience with the DualSense controller.",
+  "price": 499.99,
+  "stock": 120,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Consoles",
+  "brand": "Sony (PlayStation)",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Best gaming console!",
+      "rating": "5",
+      "comment": "The graphics and speed are incredible. Best PlayStation yet!",
+      "is_approved": 1
+    },
+    {
+      "title": "Amazing controller",
+      "rating": "5",
+      "comment": "The DualSense controller is a game-changer. Super immersive experience!",
+      "is_approved": 1
+    },
+    {
+      "title": "Hard to find",
+      "rating": "3",
+      "comment": "Great console, but it's still hard to get one in stock.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Elden Ring (PC - Steam)",
+  "description": "An epic open-world action RPG from the creators of Dark Souls, featuring vast landscapes, challenging combat, and deep lore.",
+  "price": 59.99,
+  "stock": 200,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "PC Games",
+  "brand": "Steam",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Masterpiece!",
+      "rating": "5",
+      "comment": "One of the best open-world RPGs ever made. Stunning visuals and deep gameplay!",
+      "is_approved": 1
+    },
+    {
+      "title": "Challenging but rewarding",
+      "rating": "5",
+      "comment": "The difficulty is tough, but the sense of achievement is unmatched.",
+      "is_approved": 1
+    },
+    {
+      "title": "Runs great on PC",
+      "rating": "4",
+      "comment": "Performance is solid, but some minor stutters in busy areas.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Logitech MX Master 3S Wireless Mouse",
+  "description": "A premium wireless mouse with ultra-fast scrolling, ergonomic design, and advanced precision tracking, perfect for productivity and gaming.",
+  "price": 99.99,
+  "stock": 150,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Accessories",
+  "brand": "Logitech",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Best mouse for work",
+      "rating": "5",
+      "comment": "Super comfortable and responsive. Great battery life too!",
+      "is_approved": 1
+    },
+    {
+      "title": "Smooth scrolling",
+      "rating": "5",
+      "comment": "The MagSpeed scroll is amazing! Makes my workflow so much faster.",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit pricey",
+      "rating": "4",
+      "comment": "Great features, but wish it was a little cheaper.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Nintendo eShop $50 Gift Card",
+  "description": "A digital gift card for the Nintendo eShop, perfect for purchasing games, add-ons, and other content for Nintendo Switch.",
+  "price": 50.00,
+  "stock": 500,
+  "discount": 0,
+  "delivery_time": "Instant Delivery",
+  "category": "Game Cards",
+  "brand": "Nintendo eShop",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Perfect for Switch owners",
+      "rating": "5",
+      "comment": "Easy to redeem and great for buying digital games!",
+      "is_approved": 1
+    },
+    {
+      "title": "Fast delivery",
+      "rating": "5",
+      "comment": "Got the code instantly. No issues at all.",
+      "is_approved": 1
+    },
+    {
+      "title": "Wish there were discounts",
+      "rating": "4",
+      "comment": "Works perfectly, but I wish Nintendo had more sales.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Moleskine Classic Notebook - Ruled, Large",
+  "description": "A timeless Moleskine notebook with a durable hardcover, 240 ruled pages, and an elastic closure, perfect for journaling and note-taking.",
+  "price": 24.99,
+  "stock": 300,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Stationery",
+  "brand": "Moleskine",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Best notebook ever!",
+      "rating": "5",
+      "comment": "The paper quality is excellent, and it feels premium.",
+      "is_approved": 1
+    },
+    {
+      "title": "Great for journaling",
+      "rating": "5",
+      "comment": "Love the smooth pages and the compact size.",
+      "is_approved": 1
+    },
+    {
+      "title": "A bit expensive",
+      "rating": "4",
+      "comment": "Great quality, but I wish it was a bit cheaper.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "HP OfficeJet Pro 9015e Wireless Printer",
+  "description": "An all-in-one wireless printer with fast color printing, automatic two-sided scanning, and smart features for home and office use.",
+  "price": 229.99,
+  "stock": 120,
+  "discount": 15,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Printers",
+  "brand": "HP",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Excellent printer!",
+      "rating": "5",
+      "comment": "Prints fast and the quality is amazing. Highly recommend!",
+      "is_approved": 1
+    },
+    {
+      "title": "Easy setup",
+      "rating": "5",
+      "comment": "Setup was super simple, and it works perfectly with Wi-Fi.",
+      "is_approved": 1
+    },
+    {
+      "title": "Ink is expensive",
+      "rating": "3",
+      "comment": "Great printer, but the ink replacements are pricey.",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Herman Miller Aeron Ergonomic Office Chair",
+  "description": "A high-performance ergonomic office chair with adjustable lumbar support, breathable mesh, and a sleek design for maximum comfort.",
+  "price": 1299.99,
+  "stock": 50,
+  "discount": 10,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "Office Furniture",
+  "brand": "Herman Miller",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Best office chair ever!",
+      "rating": "5",
+      "comment": "Super comfortable and great for long work hours. Worth the investment!",
+      "is_approved": 1
+    },
+    {
+      "title": "High quality but expensive",
+      "rating": "4",
+      "comment": "Build quality is top-notch, but it's a bit pricey.",
+      "is_approved": 1
+    },
+    {
+      "title": "Great for back support",
+      "rating": "5",
+      "comment": "Really helped with my lower back pain. Highly recommended!",
+      "is_approved": 1
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "Crayola 24-Count Colored Pencils",
+  "description": "A set of 24 vibrant colored pencils, perfect for school projects, coloring, and creative activities.",
+  "price": 6.99,
+  "stock": 500,
+  "discount": 5,
+  "delivery_time": "2025-02-27 13:00:37",
+  "category": "School Supplies",
+  "brand": "Crayola",
+  "images": [],
+  "reviews": [
+    {
+      "title": "Great for kids",
+      "rating": "5",
+      "comment": "My kids love these! The colors are bright and smooth.",
+      "is_approved": 1
+    },
+    {
+      "title": "Good quality",
+      "rating": "5",
+      "comment": "These are great for both kids and adults who love to color.",
+      "is_approved": 1
+    },
+    {
+      "title": "Wish they were softer",
+      "rating": "4",
+      "comment": "Good colors, but they could be a bit softer for blending.",
+      "is_approved": 1
+    }
+  ]
+}
+]

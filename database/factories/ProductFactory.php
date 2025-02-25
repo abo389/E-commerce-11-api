@@ -27,7 +27,7 @@ class ProductFactory extends Factory
             "discount" => $this->faker->numberBetween(0, 80),
             "category_id" => Category::all()->random()->id,
             "brand_id" => Brand::all()->random()->id,
-            "saler_id" => Saler::all()->random()->id,
+            "saler_id" => $this->faker->numberBetween(1, 5),
             "delivery_time" => now()->addDays($this->faker->numberBetween(1, 7)),
         ];
     }

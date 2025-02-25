@@ -19,10 +19,10 @@ return new class extends Migration
             $table->decimal('price', 10, 2);
             $table->integer('stock');
             $table->foreignId('brand_id')->constrained('brands')->onDelete('cascade');
-            $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
+            $table->foreignId('category_id')->constrained('sub_categories')->onDelete('cascade');
             $table->foreignId('saler_id')->constrained('salers')->onDelete('cascade');
             $table->integer('discount')->nullable();
-            $table->timestamp('delivery_time')->nullable();
+            $table->timestamp('delivery_time')->nullable()->default(now()->addDays(7));
             $table->timestamps();
         });
     }

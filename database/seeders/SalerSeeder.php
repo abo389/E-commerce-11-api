@@ -12,6 +12,6 @@ class SalerSeeder extends Seeder
      */
     public function run(): void
     {
-        Saler::factory(10)->create();
+        Saler::factory(5)->create();
     }
 }

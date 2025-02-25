@@ -2,10 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\Brand;
-use App\Models\Category;
 use App\Models\Product;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Review;
 use Illuminate\Database\Seeder;
 
 class ProductSeeder extends Seeder
@@ -15,20 +13,34 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-        $brands_count = Brand::all()->count();
-        // eatch brand has 1 products
-        for ($i = 1; $i <= $brands_count; $i++) {
-            Product::factory(1)->create([
-                'brand_id' => $i,
-            ]);
-        }
+        $jsonData = file_get_contents(__DIR__ . '/data/products.json');
+        $jsonDataC = file_get_contents(__DIR__ . '/data/subCategory.json');
+        $jsonDataB = file_get_contents(__DIR__ . '/data/brands.json');
+        $brands = json_decode($jsonDataB, true);
+        $categories = json_decode($jsonDataC, true);
+        $products = json_decode($jsonData, true);
 
-        $categories_count = Category::all()->count();
-        // eatch category has 1 products
-        for ($i = 1; $i <= $categories_count; $i++) {
-            Product::factory(1)->create([
-                'category_id' => $i,
+        foreach ($products as $k => $product) {
+            Product::create([
+                "name" => $product['name'],
+                "description" => $product['description'],
+                "price" => $product['price'],
+                "stock" => $product['stock'],
+                "discount" => $product['discount'],
+                "saler_id" => round(rand(1, 5)),
+                "category_id" => $categories[$product['category']],
+                "brand_id" => $brands[$product['brand']],
             ]);
+            foreach ($product['reviews'] as $review) {
+                Review::create([
+                    "product_id" => $k + 1,
+                    "user_id" => round(rand(1, 5)),
+                    "title" => $review['title'],
+                    "rating" => $review['rating'],
+                    "comment" => $review['comment'],
+                    "is_approved" => $review['is_approved'],
+                ]);
+            }
         }
     }
 }

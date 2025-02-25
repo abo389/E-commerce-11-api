@@ -13,14 +13,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory(10)->create();
         $this->call([
+            UserSeeder::class,
             CategorySeeder::class,
             BrandSeeder::class,
             SalerSeeder::class,
             ProductSeeder::class,
             ImageSeeder::class,
-            ReviewSeeder::class,
         ]);
     }
 }
+
+//  ( "price", "stock", "discount", "saler_id", "category_id", "brand_id") 
+//  values ( 110, 120, 10, 3, 15, 12)
