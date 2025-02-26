@@ -20,15 +20,28 @@ class CartController extends Controller
     }
 
     function store(Request $request) {
-        $request->validate([
-            'product_id' => 'required|exists:products,id',
-            'quantity' => 'required|integer',
-        ]);
-        $cart = Cart::create([
-            'user_id' => auth('sanctum')->id(),
-            'product_id' => $request->product_id,
-            'quantity' => $request->quantity,
-        ]);
+
+        $n = Cart::where('user_id', auth('sanctum')->id())
+        ->where('product_id', $request->product_id)
+        ->count();
+
+        if ($n > 0) {
+            $cart = Cart::where('user_id', auth('sanctum')->id())
+                ->where('product_id', $request->product_id)->first();
+            $cart->increment('quantity');
+        }
+        else {
+            $request->validate([
+                'product_id' => 'required|exists:products,id',
+                'quantity' => 'required|integer',
+            ]);
+            $cart = Cart::create([
+                'user_id' => auth('sanctum')->id(),
+                'product_id' => $request->product_id,
+                'quantity' => $request->quantity,
+            ]);
+        }
+        
         return $this->success('added to cart successfully',$cart);
     }
 
