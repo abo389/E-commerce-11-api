@@ -123,7 +123,9 @@ class ProductController extends Controller
       $data[$k]["category"] = $product->category->name;
       $data[$k]["brand"] = $product->brand->name;
       $data[$k]["reviews_count"] = $product->reviews()->count();
-      $data[$k]["reviews_avg"] = round($product->reviews()->selectRaw('avg(cast(rating as float)) as average_rating')->value('average_rating'), 1);
+      $data[$k]["reviews_avg"] = round($product->reviews()
+      ->selectRaw('avg(cast(rating as float)) as average_rating')
+      ->value('average_rating'), 1);
       $data[$k]["images"] = $product->images->pluck('link');
     }
     return $this->success('All products where the average rating is greater than or equal to ' . $rate, $data);

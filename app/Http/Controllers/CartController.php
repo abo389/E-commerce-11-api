@@ -12,6 +12,9 @@ class CartController extends Controller
 
     function index() {
         $cart = Cart::with('product')->where('user_id',auth('sanctum')->id())->get();
+        if(count($cart) == 0) {
+            return $this->success('cart is empty');
+        }
         // i want to get the product images
         foreach ($cart as $k => $item) {
             $cart[$k]['product']['images'] = $item->product->images()->pluck('link');

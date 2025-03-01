@@ -15,7 +15,7 @@ class BrandSeeder extends Seeder
         $jsonData = file_get_contents(__DIR__ . '/data/brands.json');
         $brands = json_decode($jsonData, true);
 
-        foreach ($brands as $brand) {
+        foreach ($brands as $brand => $v) {
             \App\Models\Brand::create([
                 "name" => $brand,
             ]);
