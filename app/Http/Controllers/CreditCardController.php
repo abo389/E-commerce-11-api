@@ -23,10 +23,16 @@ class CreditCardController extends Controller
     {
         $request->validate([
             'cardholder_name' => 'required|string|max:255',
-            'card_number' => 'required|numeric|min:16|unique:credit_cards',
+            'card_number' => 'required|string|size:16',
             'expiration_date' => 'required|date_format:Y-m|date|after:today',
             'cvv' => 'required|numeric|min:3',
         ]);
+        $cardNumber = (string) $request->card_number;
+        $exists = \App\Models\CreditCard::where('card_number', $cardNumber)->exists();
+        if ($exists) {
+            return $this->error('credit_card already exists', 409);
+        }
+
         $card = CreditCard::create([
             'user_id' => auth('sanctum')->id(),
             'cardholder_name' => $request->cardholder_name,

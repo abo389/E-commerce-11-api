@@ -22,13 +22,11 @@ class OrderController extends Controller
     public function store(Request $request) 
     {
         $request->validate([
-            'cart_id' => 'required|exists:carts,id',
             'total_price' => 'required|integer',
             'payment_method' => 'required|in:credit_card,cash,buy_now_pay_later',
         ]);
         $order = Order::create([
             'user_id' => auth('sanctum')->id(),
-            'cart_id' => $request->cart_id,
             'total_price' => $request->total_price,
             'payment_method' => $request->payment_method,
         ]);

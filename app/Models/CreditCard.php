@@ -17,4 +17,8 @@ class CreditCard extends Model
         'expiration_date',
         'cvv',
     ];
+
+    protected $casts = [
+        'card_number' => 'string',
+    ];
 }
